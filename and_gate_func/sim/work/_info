@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/ictc/student_data/quangtrung/09_ss9/and_gate_func/sim
+T_opt
+!s110 1749733987
+V;[mRFIofWmmkCN4fMP?O_2
+04 10 4 work test_bench fast 0
+=1-bc2411fb702e-684ad262-dd89c-f66ca
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -debugdb +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+R1
+vand_gate
+Z3 2../rtl/and_gate_func.v|../tb/test_bench.v
+!s110 1749733937
+!i10b 1
+!s100 o7ET;I`foN3QkkC?TdS=<1
+IEYhROFmj9f1P0MW8[JYZ;1
+R1
+w1749732205
+Z4 8../rtl/and_gate_func.v
+Z5 F../rtl/and_gate_func.v
+!i122 5
+L0 1 7
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1749733937.000000
+!s107 ../tb/test_bench.v|../rtl/and_gate_func.v|
+Z8 !s90 -f|compile.f|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vand_gate_func
+R3
+Z10 !s110 1750585778
+!i10b 1
+!s100 `IFeR2e]QIGSemG^X=L^m3
+I=[l6G@YR2M<7If8237`h01
+R1
+w1749733924
+R4
+R5
+!i122 9
+L0 1 19
+R6
+R7
+r1
+!s85 0
+31
+Z11 !s108 1750585778.000000
+Z12 !s107 ../tb/test_bench.v|../rtl/and_gate_func.v|
+R8
+!i113 0
+R9
+R2
+vtest_bench
+R3
+R10
+!i10b 1
+!s100 j]1CHTLK6@_n:cjzmBVz62
+IBT[;JCaFX473dSon0IM@z1
+R1
+w1749731546
+8../tb/test_bench.v
+F../tb/test_bench.v
+!i122 9
+L0 4 42
+R6
+R7
+r1
+!s85 0
+31
+R11
+R12
+R8
+!i113 0
+R9
+R2
